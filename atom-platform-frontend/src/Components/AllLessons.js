@@ -13,8 +13,8 @@ class AllLessons extends React.Component {
     const date = [].concat(this.props.data)   // sorting by date returning a new array and mapping the data
     .sort((a, b) => a.time > b.time)
     .map((item, i) =>{
-      if(oldDate !== item.time.substring(0, 10)) {   //  if oldDate is different of the element.time oldDate
-                                                     //  receive element.time and return it's data
+      if(oldDate !== item.time.substring(0, 10)) {   //  if oldDate is different then the element.time oldDate
+                                                     //  receives element.time and returns it's data
         oldDate = item.time.substring(0, 10)
 
         return <div key={i}>

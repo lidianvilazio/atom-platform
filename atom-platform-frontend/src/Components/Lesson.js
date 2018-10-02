@@ -4,7 +4,7 @@ import Moment from 'react-moment';
 import {  Row, Col } from 'reactstrap';
 import { Card, CardBody, CardText } from 'reactstrap';
 
-const Lesson = (props) => {   //
+const Lesson = (props) => { 
 
   const { lesson } = props;
 
