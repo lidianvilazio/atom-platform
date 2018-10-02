@@ -10,7 +10,7 @@ class AllLessons extends React.Component {
 
   render() {
     let oldDate
-    const date = [].concat(this.props.data)   // sorting by date returning a new array and mapping the data
+    const date = [].concat(this.props.data)   // returning a new array sorting by date and mapping the data
     .sort((a, b) => a.time > b.time)
     .map((item, i) =>{
       if(oldDate !== item.time.substring(0, 10)) {   //  if oldDate is different then the element.time oldDate
