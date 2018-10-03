@@ -16,7 +16,7 @@ class AllLessons extends React.Component {
       if(oldDate !== item.time.substring(0, 10)) {   //  if oldDate is different then the element.time oldDate
                                                      //  receives element.time and returns it's data
         oldDate = item.time.substring(0, 10)
-
+                                                    // passing data to child Lesson 
         return <div key={i}>
                   <Row>
                     <Col md={{ size: '12'}}>
@@ -28,7 +28,7 @@ class AllLessons extends React.Component {
                   <Lesson lesson={item}/>
                 </div>
       } else{                                        // else returns the data
-        return <Lesson key={i} lesson={item}/>}
+        return <Lesson key={i} lesson={item}/>}     // passing data to child Lesson
       }
     )
 

@@ -8,7 +8,7 @@ const Lesson = (props) => {
 
   const { lesson } = props;
 
-    return(   // rentuning the data
+    return (   // rentuning the data
       <div>
         <Card>
           <CardBody>

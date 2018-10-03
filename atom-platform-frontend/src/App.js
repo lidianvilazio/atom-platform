@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   render() {
-     // passing data to child
+     // passing data to child AllLessons
     return (
       <div className='mdl-layout__inner-container'>
         <div className='mdl-layout__content mdl-color-text--grey-600 color'>
