@@ -12,6 +12,6 @@ This is the Atom Full-Stack Engineer Code Sample
 
 4. On the Backend terminal run ```PORT=3000 npm start```
 
-5. on the Frontend terminal run ```npm start```
+5. On the Frontend terminal run ```npm start```
 
 # Also please see the attached for my [LinkedIn](https://www.linkedin.com/in/lidian-vil%C3%A1zio-hays/ ) and [website](https://lidianvilaziohays.herokuapp.com/).
