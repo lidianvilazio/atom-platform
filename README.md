@@ -8,7 +8,7 @@ This is the Atom Full-Stack Engineer Code Sample
 
 2. Open Front and Backend in different terminals.
 
-3. Run ```npm install -g mocha``` in each of then.
+3. Run ```npm install``` in each of then.
 
 4. On the Backend terminal run ```PORT=3000 npm start```
 
