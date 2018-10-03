@@ -14,4 +14,4 @@ This is the Atom Full-Stack Engineer Code Sample
 
 5. On the Frontend terminal run ```npm start```
 
-# Also please see the attached for my [LinkedIn](https://www.linkedin.com/in/lidian-vil%C3%A1zio-hays/ ) and [website](https://lidianvilaziohays.herokuapp.com/).
+# Also, please see the following links for my [LinkedIn](https://www.linkedin.com/in/lidian-vil%C3%A1zio-hays/ ) and [website](https://lidianvilaziohays.herokuapp.com/).
